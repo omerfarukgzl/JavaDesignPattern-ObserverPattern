@@ -13,9 +13,9 @@ public abstract class Observable {
         this.userList.add(user);
     }
 
-    public void publishPost(String announcement){
+    public void publishPost(String channelName, String announcement){
         for(Observer user : userList){
-            user.getPostNotification(this,announcement);
+            user.getPostNotification(channelName,announcement);
         }
     }
 }

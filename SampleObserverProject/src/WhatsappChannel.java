@@ -1,17 +1,17 @@
 public class WhatsappChannel extends Observable{
 
-    String channelName;
+    private String channelName;
 
      WhatsappChannel(String channelName){
          this.channelName=channelName;
     }
 
     public void publishNews(String announcement){
-         System.out.println("Haber oluşturldu");
+         System.out.println("Yeni Haber oluşturldu");
 
-         System.out.println("Haber yayınlandı");
+         System.out.println("Yeni Haber yayınlandı");
 
-         this.publishPost(announcement);
+         this.publishPost(this.channelName, announcement);
 
          System.out.println("Haber tüm kullanıcılara bildirildi.");
 

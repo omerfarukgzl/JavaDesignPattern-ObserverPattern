@@ -9,7 +9,7 @@ public class WhatsappUser implements Observer{
 
     @Override
     public void getPostNotification(String whatsappChannelName,String announcement) {
-        System.out.println(whatsappChannelName +" Kanalının yeni gönderi bildirimi var!");
+        System.out.println("Hey " + name + "  "+ whatsappChannelName +" Kanalının yeni gönderi bildirimi var!");
         System.out.println("Haber içeriği: " + announcement);
     }
 }
