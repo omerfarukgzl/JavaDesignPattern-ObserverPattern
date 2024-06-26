@@ -7,13 +7,14 @@ public class WhatsappChannel extends Observable{
     }
 
     public void publishNews(String announcement){
-         System.out.println("Yeni Haber oluşturldu");
+         System.out.println("*** Yeni Haber oluşturldu ***");
 
-         System.out.println("Yeni Haber yayınlandı");
+         System.out.println("*** Yeni Haber yayınlandı ***");
+         System.out.println("----------------------------------------------------------------------------------");
 
-         this.publishPost(this.channelName, announcement);
+        this.publishPost(this.channelName, announcement);
 
-         System.out.println("Haber tüm kullanıcılara bildirildi.");
+         System.out.println("*** Haber tüm kullanıcılara bildirildi. ***");
 
     }
 
