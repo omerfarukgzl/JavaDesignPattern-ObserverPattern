@@ -55,22 +55,26 @@ Whatsapp User sınıfı, whatsapp uygulaması kullanıcılarını simüle etmek 
 
 ### Whatsapp Channel
 ![Whatsapp Channel](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/a58cad65-88e0-4150-9169-e3be0171988b)
-Whatsapp Channel sınıfı, whatsapp uygulaması içerisinde yer alan kanalları simüle etmek için oluşturulmuştur. Bu sınıf bir gönderi yayınlamak istedğinde öncelikle o gönderiyi oluşturacak, yayınlayacak ve kendisine abone olan kullancılara bildirim sağlayacaktır. Fakat bu bildirimin sağlanabilmesi için kendisine abone olmak ve bildirim almak isteyen kullanıcın Observer özelliğinde olması gerekmektedir. Bu sayede özel bir sınıfa bağımlı kalmadan tüm Observer özelliğinde olan sınıflara bildirim sağlayabilecektir. Bu durum ise Dependency inversion ilkesine dayanmaktadır.
+Whatsapp Channel sınıfı, whatsapp uygulaması içerisinde yer alan kanalları simüle etmek için oluşturulmuştur. Bu sınıf bir gönderi yayınlamak istedğinde öncelikle o gönderiyi oluşturacak, yayınlayacak ve kendisine abone olan kullancılara miras aldığı abstract class da mevcut olan **publishPost** metodu sayesinde bildirim sağlayacaktır. Fakat bu bildirimin sağlanabilmesi için kendisine abone olmak ve bildirim almak isteyen kullanıcın Observer özelliğinde olması gerekmektedir. Bu sayede özel bir sınıfa bağımlı kalmadan tüm Observer özelliğinde olan sınıflara bildirim sağlayabilecektir. Bu durum ise Dependency inversion ilkesine dayanmaktadır.
 <br />
 
 
-
+### Observable
 ![Observable](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/5d3af5ab-660b-4cc5-9470-2ae5951673b8)
-![ ](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/551f760d-fe0b-463b-9000-ca3c85aa7848)
+Observale sınıfı gözlemlenebilme, bildirmi yayma özelliğine sahiptir . Bu sınıfın abstract class olmasının sebebi ise herhangi bir nesne türetimi olmadan alt sınıfa gözlemlenebilme özelliğini kazandırmaktır. Bu özelliğin interface kullanılarak kazandırılmamasının sebebi ise bildiri yapacak metodun ve abone olan kullanıcıların her bir alt sınıfında yazılması yerine ortak olan üst sınıfta ortak olarak yazılmasıdır. Dolayısıyla observable olmak isteyen sınıflar bu sınıfı miras almalı ve bu sınıfın barındırdığı metodları kullanmalıdır.
+<br />
+
+### Main Class
+![main](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/a13f9a5d-4f38-4e77-b7c0-cba91cd281d9)
+Main sıfında Whatsapp kullanıcıları ve kanalları oluşturulmuştur. Akabinde ise ilgili kullanıcılar ilgili kanallara abone edilmiş ve daha sonra ilgili kanallarda yeni haberler oluşturulmuştur.
 
 
-Observale sınıfı bir abstract class 'dır. Bunun sebebi 
+ ### Output
+ ![Output](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/2e2b8de6-7a8f-452f-ba78-c62320a74551)
+Çalıştırılan programın çıktısı ise görüldüğü üzere ilk olarak software developer kanalında haber oluşturulmuş ve yayınlanmıştır. Daha sonra bu oluşturulan haberin bildirimi bu kanala abone olan kullanıcalara iletilmiştir. Ardından aynı işlemler hardware kanalı için gerçekleşmiştir.  
+
+Görüldüğü üzere kanallarda yapılan her yeni haber abone olan kullanıcılara bildirilmiştir. Bu yapı sayesinde her kanal nesnesinin kendisine ait abone kullanıcıları oluşacaktır.
 
 
-
-
-
-
-
-
+ 
 
