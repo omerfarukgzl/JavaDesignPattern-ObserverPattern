@@ -67,10 +67,11 @@ Observale sınıfı gözlemlenebilme, bildirmi yayma özelliğine sahiptir . Bu 
 ### Main Class
 ![main](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/a13f9a5d-4f38-4e77-b7c0-cba91cd281d9)
 Main sıfında Whatsapp kullanıcıları ve kanalları oluşturulmuştur. Akabinde ise ilgili kullanıcılar ilgili kanallara abone edilmiş ve daha sonra ilgili kanallarda yeni haberler oluşturulmuştur.
-
+<br />
 
  ### Output
  ![Output](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/2e2b8de6-7a8f-452f-ba78-c62320a74551)
+ 
 Çalıştırılan programın çıktısı ise görüldüğü üzere ilk olarak software developer kanalında haber oluşturulmuş ve yayınlanmıştır. Daha sonra bu oluşturulan haberin bildirimi bu kanala abone olan kullanıcalara iletilmiştir. Ardından aynı işlemler hardware kanalı için gerçekleşmiştir.  
 
 Görüldüğü üzere kanallarda yapılan her yeni haber abone olan kullanıcılara bildirilmiştir. Bu yapı sayesinde her kanal nesnesinin kendisine ait abone kullanıcıları oluşacaktır.
