@@ -37,7 +37,7 @@ Temel olarak bu çerçevede ilerleyen Gözlemci Tasarım Kalıbını örnek bir 
 
 <br />
 
-## Whatsapp kullanıcılarının Whatsapp kanallarına abone olması ve gönderi bildirimlerini alması
+## Whatsapp kullanıcılarının whatsapp kanallarına abone olması ve gönderi bildirimlerini alması
 
 
 ### Observer Interface
