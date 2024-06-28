@@ -2,7 +2,7 @@ Merhabalar.
 
 Bu yazımda sizlere tasarım desenlerinin sıklıkla kullanılan **Gözlemci (Observer) Tasarım Kalıbı** konusunu inşallah anlatmaya çalışacağım.
 
->Tasarım kalıpları, belirli problemlere karşı çözüm getirmek amacıyla tasarlanmış ve problemlerin çözümünde herkes tarafından 
+Tasarım kalıpları, belirli problemlere karşı çözüm getirmek amacıyla tasarlanmış ve problemlerin çözümünde herkes tarafından 
 benimsenerek daha kolay anlaşılan pratik çözüm yolları haline gelmiştir.Bu çözüm yollarından biri olan Gözlemci Tasarım Kalıbı (Observer Design Patern), 
 abone ve yayımcı mantığında işleyen yapıya sahiptir. 
 
@@ -22,6 +22,7 @@ Gözlemci tasarım kalıbının daha iyi anlaşılabilmesi için öncelikle çı
 
 * Oyun objesinin çarpma etkinliğini bu etkinliği dinlemek isteyen objelere iletmek vb.
 
+<br />
 
 Bahsetmiş olduğumuz örnek problemlerde mevcut olan ortak özellik farkedildiği üzere bir tarafın bildiri / yayın yapma isteği 
 iken diğer tarafın ise gözlemleme, dinleme ve abone olması eğilimidir. Benzer sorunlara çözüm üretmek amacı ile tasarlanan bu yapı ise 
@@ -35,9 +36,16 @@ Artık her bildiri yapıldığında gözlemci sınıflar haberdar edilecektir.
 Temel olarak bu çerçevede ilerleyen Gözlemci Tasarım Kalıbını örnek bir problem ile kodlayarak pekiştirmeye çalışalım.
 
 
+![Observer Interface]
+
+![observer2](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/d1670b2f-ad06-4504-804c-0dc474eabb22)
+
+Yukarıda yer alan Observer Interface'i, bildiri almak isteyen sınıflara gözlemleyici olabilme özelliğini kazandırması ve bu sınıfları kullanırken gözlemleyici olan metodları garanti etmesi amacıyla oluşturulmuştur.
 
 
 
+
+![observer1](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/4822c32c-757f-469a-b60f-e2ecc8f4b7e6)
 
 
 
