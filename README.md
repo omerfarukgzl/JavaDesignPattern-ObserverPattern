@@ -37,9 +37,12 @@ Temel olarak bu çerçevede ilerleyen Gözlemci Tasarım Kalıbını örnek bir 
 
 <br />
 
+## Whatsapp Kullanıcılarının Whatsapp kanallarına abone olması ve gönderi bildirimlerini alması
+
+
 ### Observer Interface
 ![Observer Interface](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/d1670b2f-ad06-4504-804c-0dc474eabb22)
-Yukarıda yer alan Observer Interface'i, bildiri almak isteyen sınıflara gözlemleyici olabilme özelliğini kazandırması ve bu sınıfları kullanırken gözlemleyici olan metodları garanti etmesi amacıyla oluşturulmuştur.
+Yukarıda yer alan Observer Interface'i, bildiri almak isteyen sınıflara gözlemleyici  özelliğini kazandırması ve bu sınıfları kullanırken gözlemleyici olan metodları garanti etmesi amacıyla oluşturulmuştur. Prensip olarak Dependency Inversion ilkesine dayanmaktadır.
 <br />
 
 
