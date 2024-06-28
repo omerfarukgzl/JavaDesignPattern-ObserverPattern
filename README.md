@@ -37,16 +37,17 @@ Temel olarak bu çerçevede ilerleyen Gözlemci Tasarım Kalıbını örnek bir 
 
 <br />
 
+### Observer Interface
 ![Observer Interface](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/d1670b2f-ad06-4504-804c-0dc474eabb22)
 
 Yukarıda yer alan Observer Interface'i, bildiri almak isteyen sınıflara gözlemleyici olabilme özelliğini kazandırması ve bu sınıfları kullanırken gözlemleyici olan metodları garanti etmesi amacıyla oluşturulmuştur.
 
-
+### Whatsapp User
 ![Whatsapp User ](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/551f760d-fe0b-463b-9000-ca3c85aa7848)
 
 Whatsapp User sınıfı, whatsapp uygulaması kullanıcılarını simüle etmek için oluşturulmuştur. Bu kullanıcılar takip etmek istedikleri whatsapp kanallarına abone olarak gelecek bildirimleri alabilecek ve gönderilerden haberdar olacaktır. Temel olarak bakıldığında Whatsapp User sınıfının ilgil kanalların bildirimlerini gözlemleyici özelliği vardır. Bu özelliği ise yukarıda bahsedilen Observer interface'ini implement ederek kazanmıştır. Bu sayede abone olduğu kanal için bir gözelemleyici sınıf haline gelmiştir. 
 
-
+### Whatsapp Channel
 ![Whatsapp Channel](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/a58cad65-88e0-4150-9169-e3be0171988b)
 
 Whatsapp Channel sınıfı, whatsapp uygulaması içerisinde yer alan kanalları simüle etmek için oluşturulmuştur. Bu sınıf bir gönderi yayınlamak istedğinde öncelikle o gönderiyi oluşturacak, yayınlayacak ve kendisine abone olan kullancılara bildirim sağlayacaktır. Fakat bu bildirimin sağlanabilmesi için kendisine abone olmak ve bildirim almak isteyen kullanıcın Observer özelliğinde olması gerekmektedir. Bu sayede özel bir sınıfa bağımlı kalmadan tüm Observer özelliğinde olan sınıflara bildirim sağlayabilecektir. Bu durum ise Dependency inversion ilkesine dayanmaktadır.
