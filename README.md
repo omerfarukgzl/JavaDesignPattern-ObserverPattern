@@ -47,7 +47,8 @@ Yukarıda yer alan Observer Interface'i, bildiri almak isteyen sınıflara gözl
 
 
 ### Whatsapp User
-![Whatsapp User ](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/551f760d-fe0b-463b-9000-ca3c85aa7848)
+![Whatsapp User](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/6342dbf2-0285-41c6-a7b2-1955eaa8d23e)
+
 Whatsapp User sınıfı, whatsapp uygulaması kullanıcılarını simüle etmek için oluşturulmuştur. Bu kullanıcılar takip etmek istedikleri whatsapp kanallarına abone olarak gelecek bildirimleri alabilecek ve gönderilerden haberdar olacaktır. Temel olarak bakıldığında Whatsapp User sınıfının ilgil kanalların bildirimlerini gözlemleyici özelliği vardır. Bu özelliği ise yukarıda bahsedilen Observer interface'ini implement ederek kazanmıştır. Bu sayede abone olduğu kanal için bir gözelemleyici sınıf haline gelmiştir. 
 <br />
 
@@ -60,6 +61,8 @@ Whatsapp Channel sınıfı, whatsapp uygulaması içerisinde yer alan kanalları
 
 
 ![Observable](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/5d3af5ab-660b-4cc5-9470-2ae5951673b8)
+![ ](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/551f760d-fe0b-463b-9000-ca3c85aa7848)
+
 
 Observale sınıfı bir abstract class 'dır. Bunun sebebi 
 
