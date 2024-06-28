@@ -49,7 +49,7 @@ Yukarıda yer alan Observer Interface'i, bildiri almak isteyen sınıflara gözl
 ### Whatsapp User
 ![Whatsapp User](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/6342dbf2-0285-41c6-a7b2-1955eaa8d23e)
 
-Whatsapp User sınıfı, whatsapp uygulaması kullanıcılarını simüle etmek için oluşturulmuştur. Bu kullanıcılar takip etmek istedikleri whatsapp kanallarına abone olarak gelecek bildirimleri alabilecek ve gönderilerden haberdar olacaktır. Temel olarak bakıldığında Whatsapp User sınıfının ilgil kanalların bildirimlerini gözlemleyici özelliği vardır. Bu özelliği ise yukarıda bahsedilen Observer interface'ini implement ederek kazanmıştır. Bu sayede abone olduğu kanal için bir gözelemleyici sınıf haline gelmiştir. 
+Whatsapp User sınıfı, whatsapp uygulaması kullanıcılarını simüle etmek için oluşturulmuştur. Bu kullanıcılar takip etmek istedikleri whatsapp kanallarına abone olarak gelecek bildirimleri alabilecek ve gönderilerden haberdar olacaktır. Temel olarak bakıldığında Whatsapp User sınıfı ilgil kanalların bildirimlerini gözlemleyici özelliğine sahiptir. Bu özelliği ise yukarıda bahsedilen Observer interface'ini implement ederek kazanmıştır. Bu sayede abone olduğu kanal için bir gözelemleyici sınıf haline gelmiştir. 
 <br />
 
 
