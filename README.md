@@ -1,8 +1,8 @@
 Merhabalar.
 
-Bu yazımda sizlere tasarım desenlerinin sıklıkla kullanılan Gözlemci (Observer) Tasarım Kalıbı konusunu anlatmaya çalışacağım.
+Bu yazımda sizlere tasarım desenlerinin sıklıkla kullanılan **Gözlemci (Observer) Tasarım Kalıbı** konusunu inşallah anlatmaya çalışacağım.
 
- Tasarım kalıpları, belirli problemlere karşı çözüm getirmek amacıyla tasarlanmış ve problemlerin çözümünde herkes tarafından 
+>Tasarım kalıpları, belirli problemlere karşı çözüm getirmek amacıyla tasarlanmış ve problemlerin çözümünde herkes tarafından 
 benimsenerek daha kolay anlaşılan pratik çözüm yolları haline gelmiştir.Bu çözüm yollarından biri olan Gözlemci Tasarım Kalıbı (Observer Design Patern), 
 abone ve yayımcı mantığında işleyen yapıya sahiptir. 
 
