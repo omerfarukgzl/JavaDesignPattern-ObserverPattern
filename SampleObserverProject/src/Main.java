@@ -7,12 +7,16 @@ public class Main {
         Observer ismail = new WhatsappUser("ismail","5571234567");
 
         WhatsappChannel softwareDeveloperChannel = new WhatsappChannel("Software Developer");
+        WhatsappChannel hardwareDeveloperChannel = new WhatsappChannel("Hardware Developer");
 
         softwareDeveloperChannel.registerUser(omer);
         softwareDeveloperChannel.registerUser(furkan);
         softwareDeveloperChannel.registerUser(taha);
 
-        softwareDeveloperChannel.publishNews("Java bitiyor mu ?");
+        hardwareDeveloperChannel.registerUser(ismail);
+
+        softwareDeveloperChannel.publishNews("Java dünyası artık bitiyor mu ?");
+        hardwareDeveloperChannel.publishNews("Kameralarda yeni dönem başlıyor !");
 
 
     }

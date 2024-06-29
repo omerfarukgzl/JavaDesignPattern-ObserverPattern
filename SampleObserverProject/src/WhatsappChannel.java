@@ -6,15 +6,20 @@ public class WhatsappChannel extends Observable{
          this.channelName=channelName;
     }
 
-    public void publishNews(String announcement){
-         System.out.println("*** Yeni Haber oluşturldu ***");
 
-         System.out.println("*** Yeni Haber yayınlandı ***");
-         System.out.println("----------------------------------------------------------------------------------");
+
+    public void publishNews(String announcement){
+        System.out.println("==================================================================================");
+        System.out.println("==================================================================================");
+
+        System.out.println("***" + this.channelName + "Kanalında yeni haber oluşturldu ***");
+        System.out.println("***" + this.channelName + " Kanalında yeni haber yayınlandı ");
+        System.out.println("----------------------------------------------------------------------------------");
 
         this.publishPost(this.channelName, announcement);
 
-         System.out.println("*** Haber tüm kullanıcılara bildirildi. ***");
+        System.out.println("***" +this.channelName + " Haberi tüm kullanıcılara bildirildi ");
+        System.out.println("==================================================================================");
 
     }
 
