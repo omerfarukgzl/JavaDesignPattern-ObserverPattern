@@ -91,6 +91,10 @@ Main sıfında Whatsapp kullanıcıları ve kanalları oluşturulmuştur. Akabin
 
 Görüldüğü üzere kanallarda yapılan her yeni haber abone olan kullanıcılara bildirilmiştir. Bu yapı sayesinde her kanal nesnesinin kendisine ait abone kullanıcıları oluşacaktır.
 
+<br/>
+<br/>
+
+Dediler ki: "Seni tesbih ederiz, Senin bize bildirdiklerinden başka bizim bilgimiz yoktur. Şüphe yok ki alîm, hakîm olan Sen'sin."
 
  
 
