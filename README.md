@@ -42,7 +42,7 @@ Temel olarak bu çerçevede ilerleyen Gözlemci Tasarım Kalıbını örnek bir 
 
 ![Diagram](https://github.com/omerfarukgzl/JavaDesignPattern-ObserverPatern/assets/58605364/cbe0affc-69f5-4a20-9814-5581e5bc4883)
 
-Örnek olarak tasarımını gerçekleştirdiğimiz Whatsapp kullanıcı ve kanal bildirim ilişkisi, gözlemci prensibine uygun olarak simüle edilmiştir. Bu yapıda kullacılar ilgili kanal gönderilerinden haberdar olmak için bu kanallara abone olurlar. Daha sonra ilgili kanallar herhangi bir gönderi yayınladıklarında abone olan kullanıcılara bildirim yayınlayacaktır.
+Örnek olarak tasarımını gerçekleştirdiğimiz Whatsapp kullanıcı ve kanal bildirim ilişkisi, gözlemci prensibine uygun olarak simüle edilmiştir. Bu yapıda kullacılar ilgili kanal gönderilerinden haberdar olmak için bu kanallara abone olurlar. Daha sonra ilgili kanallar herhangi bir gönderi yayınladıklarında abone olan kullanıcılara bildirim yayınlarlar. Bu sayede kullanıcılar gönderi etkinliklerini gözlemleyebilir hale gelecek ve tasarıma uygun davranış sergileyecktir.
 <br/>
 
 
