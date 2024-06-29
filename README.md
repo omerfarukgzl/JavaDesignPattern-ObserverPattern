@@ -17,7 +17,7 @@ Tasarım kalıpları, belirli problemlere karşı çözüm getirmek amacıyla ta
 
 Gözlemci tasarım kalıbının daha iyi anlaşılabilmesi için öncelikle çıkış amacı olan problemlerden biraz bahsedelim.
 
-Örnek Problemler:
+#### Örnek Problemler:
 
 * Haber yayımı yapan sınıfın haber yayınlarına abone olmak ve bu haberleri canlı olarak kullanıcıya göstermek
 
