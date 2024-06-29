@@ -4,13 +4,13 @@ Bu yazımda sizlere tasarım desenlerinin sıklıkla kullanılan **Gözlemci (Ob
 
 Tasarım kalıpları, belirli problemlere karşı çözüm getirmek amacıyla tasarlanmış ve problemlerin çözümünde herkes tarafından benimsenerek daha kolay anlaşılan pratik çözüm yolları haline gelmiştir. Bu çözüm yollarından biri olan Gözlemci Tasarım Kalıbı (Observer Design Pattern), abone ve yayımcı mantığında işleyen bir yapıya sahiptir. 
 
-####Observer ve Observable Kavramları
-#####Observer (Gözlemci):
+#### Observer ve Observable Kavramları
+##### Observer (Gözlemci):
 
 * Gözlemci, belirli bir olay veya durum hakkında bilgi almak isteyen nesnedir. Olay meydana geldiğinde bildirilir.
 * Örneğin, bir haber sitesi uygulamasında, kullanıcıların yeni haberleri alabilmesi için bu haberlere abone olması gerekmektedir. Kullanıcılar burada gözlemci rolündedir.
 
-#####Observable (Gözlemlenebilir):
+##### Observable (Gözlemlenebilir):
 
 * Gözlemlenebilir, bir olayın meydana geldiğini bildiren nesnedir. Gözlemcileri tutar ve onlara olayları bildirir.
 * Örneğin, haber sitesi uygulamasında, yeni haberler yayınlandığında bunu abonelerine bildiren haber sınıfı gözlemlenebilir rolündedir.
