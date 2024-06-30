@@ -94,7 +94,7 @@ Görüldüğü üzere kanallarda yapılan her yeni haber abone olan kullanıcıl
 <br/>
 <br/>
 
-Dediler ki: "Seni tesbih ederiz, Senin bize bildirdiklerinden başka bizim bilgimiz yoktur. Şüphe yok ki alîm, hakîm olan Sen'sin." Bakara/32
+>Dediler ki: "Seni tesbih ederiz, Senin bize bildirdiklerinden başka bizim bilgimiz yoktur. Şüphe yok ki alîm, hakîm olan Sen'sin." Bakara/32
 
  
 
